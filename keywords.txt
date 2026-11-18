@@ -1,0 +1,68 @@
+#######################################
+# Syntax Coloring Map for SHN_OtaLib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OtaManager	KEYWORD1
+HttpOtaProvider	KEYWORD1
+WifiConnector	KEYWORD1
+OtaCredentials	KEYWORD1
+IPageProvider	KEYWORD1
+EmbeddedPageProvider	KEYWORD1
+FsPageProvider	KEYWORD1
+FtpFirmwareUpdater	KEYWORD1
+OtaPageContext	KEYWORD1
+OtaWebServer	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+handle	KEYWORD2
+end	KEYWORD2
+isConnected	KEYWORD2
+isActive	KEYWORD2
+ip	KEYWORD2
+deviceId	KEYWORD2
+generatePin	KEYWORD2
+currentPassword	KEYWORD2
+updatePassword	KEYWORD2
+updateUrl	KEYWORD2
+onUpdateComplete	KEYWORD2
+onNetworkUp	KEYWORD2
+onNetworkDown	KEYWORD2
+onPasswordChanged	KEYWORD2
+serveRoot	KEYWORD2
+serveUploadPage	KEYWORD2
+serveNotFound	KEYWORD2
+
+#######################################
+# Structures (KEYWORD3)
+#######################################
+
+Config	KEYWORD3
+Mode	KEYWORD3
+DoneCallback	KEYWORD3
+NetworkUpCallback	KEYWORD3
+NetworkDownCallback	KEYWORD3
+PasswordChangedCallback	KEYWORD3
+PinOptions	KEYWORD3
+Station	KEYWORD3
+AccessPoint	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+OTA_ENABLE_FTP	LITERAL1
+OTA_FS_MODE_LITTLEFS	LITERAL1
+OTA_FS_MODE_SPIFFS	LITERAL1
+OTA_FS_MODE_FATFS	LITERAL1
+OTA_FS	LITERAL1
+OTA_UPDATE_CMD_FLASH	LITERAL1
+OTA_UPDATE_CMD_FS	LITERAL1
+OTA_SECRET_PEPPER	LITERAL1

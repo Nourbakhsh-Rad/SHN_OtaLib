@@ -1,0 +1,37 @@
+{
+  "name": "SHN_OtaLib",
+  "version": "2.0.0",
+  "description": "Modular HTTP-based OTA + optional FTP firmware update library for ESP32/ESP8266. A class-based rewrite of the legacy SHN_OtaUtil: WiFi/network bring-up, HTTP firmware+filesystem update server, and optional FTP firmware upload as independent, testable components.",
+  "keywords": "ota, esp32, esp8266, firmware, update, http, ftp, wifi, ethernet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nourbakhsh-Rad/SHN_OtaLib.git"
+  },
+  "authors": [
+    {
+      "name": "Sh. Nourbakhsh Rad",
+      "email": "Sh.Nourbakhsh@gmail.com",
+      "url": "https://github.com/Nourbakhsh-Rad",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "headers": "SHN_OtaLib.h",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
+  "export": {
+    "include": [
+      "src",
+      "examples",
+      "tools",
+      "library.properties",
+      "library.json",
+      "keywords.txt",
+      "README.md",
+      "LICENSE"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+# Real per-deployment secret - copy OtaSecrets.example.h to this and fill it
+# in locally. Never commit this file.
+src/OtaSecrets.h
+
+# If you keep a filled-in copy of the support-side calculator (with your
+# real pepper baked in) next to the template, don't commit that either.
+tools/OTA_pass.local.html
+
+.DS_Store
+
+# Build / IDE leftovers
+.pio/
+.vscode/
+build/
+*.bak
